@@ -68,3 +68,7 @@ label {
   padding: 5px;
   margin-left: 340px;
 }
+
+.myButton:hover, select:hover, label input:hover {
+  cursor: pointer;
+}
