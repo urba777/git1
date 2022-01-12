@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 6px solid #272727;
+  border-bottom: none;
+}
+
+.leftSide {
+  width: 50%;
+  background-image: url(../images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+}
+
+.rightSide {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.bellImage {
+  width: 140px;
+  height: 160px;
+  margin-top: 50px;
+  position: relative;
+  left: -23px;
+}
+
+h1 {
+  width: 440px;
+    font-size: 52px;
+}
+
+h4 {
+  color: gray;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 664px;
+  width: 100%;
+}
+
+input {
+  margin: 20px 0;
+  padding: 20px 11px;
+}
+
+button {
+  background-color: #5385cd;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h5 {
+  font-size: 15px;
+  color: gray;
+  font-weight: 300;
+}
