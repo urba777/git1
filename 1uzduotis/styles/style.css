@@ -1,0 +1,70 @@
+ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+li .ulistPlus {
+  color: #fff;
+  width: 5px;
+  height: 10px;
+  background-color: #76a466;
+  border: 1px solid #000;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  border: 1px solid #8b949b;
+}
+
+table th {
+  color: #fff;
+  background-color: #7fa5cc;
+  border-bottom: 4px solid #486b93;
+}
+
+table th:first-child, table th:last-child {
+  border-radius: 8px;
+}
+
+td {
+  background-color: #d9e3ec;
+  padding: 0 20px 0 10px;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: 2px solid gray;
+  width: 400px;
+}
+
+.fieldsetInputs input {
+  margin-left: 120px;
+}
+
+.fieldsetSelect select {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 69px;
+}
+
+.fieldsetRadio span {
+  margin-right: 60px;
+}
+
+label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.myButton {
+  background-color: green;
+  color: #fff;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: 340px;
+}
