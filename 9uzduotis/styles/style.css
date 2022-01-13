@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/furniture.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.filter {
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.leftSide {
+  color: #fff;
+  width: 656px;
+}
+
+.leftSide > h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.leftSide > p {
+  color: gray;
+  font-size: 21px;
+}
+
+.rightSide > form {
+  display: flex;
+  flex-direction: column;
+  height: 367px;;
+  justify-content: space-between;
+}
+
+.rightSide > form > input, .rightSide > form > textarea, .myButton {
+  width: 340px;
+}
+
+.rightSide > form > input, .rightSide > form > textarea {
+  padding: 15px 8px;
+}
+
+.rightSide > form > textarea {
+  height: 130px;
+}
+
+.rightSide > form > .myButton {
+  padding: 20px 0px;
+  background-color: #f77925;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+.myButton:hover {
+  cursor: pointer;
+}
+
+.rightSide > h4 {
+  padding-top: 10px;
+  color: gray;
+  font-size: 17px;
+}
