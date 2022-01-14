@@ -26,10 +26,10 @@ body {
 
 .container {
   width: 60%;
-  display: flex;
+  /* display: flex;
   gap: 20px;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
   z-index: 0;
   position: absolute;
   top: 50%;
@@ -37,11 +37,16 @@ body {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  font-size: 0;
 }
 
 .leftSide {
   color: #fff;
-  width: 656px;
+  width: 58%;
+  display: inline-block;
+  position: relative;
+  top: -103px;
+  margin-right: 8%;
 }
 
 .leftSide > h1 {
@@ -56,15 +61,15 @@ body {
   font-size: 21px;
 }
 
-.rightSide > form {
-  display: flex;
-  flex-direction: column;
-  height: 367px;;
-  justify-content: space-between;
+.rightSide  {
+  width: 34%;
+  display: inline-block
 }
 
 .rightSide > form > input, .rightSide > form > textarea, .myButton {
   width: 340px;
+  margin: 15px 0;
+  display: block;
 }
 
 .rightSide > form > input, .rightSide > form > textarea {
@@ -76,6 +81,7 @@ body {
 }
 
 .rightSide > form > .myButton {
+  margin-top: 20px;
   padding: 20px 0px;
   background-color: #f77925;
   color: #fff;
@@ -88,7 +94,6 @@ body {
 }
 
 .rightSide > h4 {
-  padding-top: 10px;
   color: gray;
   font-size: 17px;
 }
