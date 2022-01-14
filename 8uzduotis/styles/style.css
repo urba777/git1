@@ -5,11 +5,11 @@
 }
 
 .container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr; 
   column-gap: 10px;
-  row-gap: 100px;
+  row-gap: 100px; */
   width: 60%;
   margin: auto;
   position: absolute;
@@ -18,20 +18,25 @@
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  font-size: 0;
+  text-align: center;
 }
 
 .box {
-  width: 207px;
+  width: 20%;
+  margin-right: 2.5%;
   height: 140px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  display: inline-block;
 }
 
 div.greenBox {
   align-items: center;
   text-align: center;
   height: 180px;
+  margin-top: 100px;
 }
 
 img.yellowIcon {
@@ -46,12 +51,14 @@ img.greenIcon {
 
 h1 {
   font-size: 16px;
+  padding: 20px 0;
 }
 
 p {
   color: gray;
+  font-size: 16px;
 }
 
 div.greenBox > p {
-  width: 175px;
+  font-size: 16px;
 }

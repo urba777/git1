@@ -7,24 +7,32 @@
 .container {
   margin: auto;
   width: 50%;
-  display: flex;
+  /* display: flex;
   gap: 50px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  font-size: 0;
 }
 
 .box {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; */
+  /* justify-content: space-between; */
   height: 382px;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+
+body > div > div:nth-child(2), body > div > div:last-child {
+  margin-left: 5%;
 }
 
 img {
@@ -36,11 +44,13 @@ img {
 
 h1 {
   font-size: 26px;
+  padding: 20px 0;
 }
 
 p {
-  max-width: 180px;
   color: gray;
+  font-size: 18px;
+  padding-bottom: 35px;
 }
 
 .myButton {
@@ -49,4 +59,5 @@ p {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 8px;
+  font-size: 16px;
 }
