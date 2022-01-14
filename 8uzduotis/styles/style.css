@@ -30,6 +30,7 @@
   flex-direction: column;
   justify-content: space-between;
   display: inline-block;
+  text-align: left;
 }
 
 div.greenBox {
