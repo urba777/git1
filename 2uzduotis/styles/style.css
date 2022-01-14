@@ -20,12 +20,13 @@ nav {
 
 ul {
   list-style-type: none;
-  display: flex;
+  /* display: flex; */
 }
 
 ul li {
   padding: 20px;
   border-right: 1px solid #fff;
+  display: inline-block;
 }
 
 ul li a {
@@ -48,7 +49,14 @@ li:hover {
 }
 
 .secondContainer {
-  display: flex;
+  font-size: 0;
+}
+
+.secondContainer > div {
+  /* display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 40px; */
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
 }
