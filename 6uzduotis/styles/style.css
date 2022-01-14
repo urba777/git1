@@ -25,15 +25,18 @@ body {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  gap: 100px;
+  gap: 100px; */
   background-color: rgba(255, 255, 255, 0.7);
   padding: 30px 47px;
+  font-size: 0;
 }
 
 .leftSide, .rightSide {
   padding: 20px;
+  display: inline-block;
+  width: 45%;
 }
 
 .leftSide {
@@ -41,11 +44,15 @@ body {
 }
 
 .rightSide {
+  /* position: relative;
+  right: -19%; */
+  margin-left: 10%;
   background-color: #fe6e78;
 }
 
 h1 {
   margin-bottom: 30px;
+  font-size: 32px;
 }
 
 p {
