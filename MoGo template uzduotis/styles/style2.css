@@ -345,11 +345,11 @@ section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMi
 .twelfthSection {
   padding-top: 5.625rem;
   background-image: url(../images/bg3.jpg);
+  text-align: center;
 }
 
 .twelfthSection .wrapper {
   max-width: 62.5% rem;
-  margin: auto;
   font-size: 0;
 }
 
@@ -432,7 +432,7 @@ section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMi
 }
 
 .twelfthSection .wrapper .clientBox .twelfthSectionText p {
-  max-width: 24.313rem;
+  max-width: 24.2rem;
   width: 100%;
   font-size: 00.938rem;
   line-height: 1.5rem;

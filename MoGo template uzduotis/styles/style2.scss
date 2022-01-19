@@ -324,9 +324,9 @@ section.eleventhSection {
     padding-top: $paddingBetweenSections;
     background-image: url(../images/bg3.jpg);
     // width: 100vw;
+    text-align: center;
     .wrapper {
         max-width: $wrapper;
-        margin: auto;
         font-size: 0;
         h1, h3 {
             color: $color333333;
@@ -395,7 +395,7 @@ section.eleventhSection {
                     margin-bottom: 0.8rem;
                 }
                 p {
-                    max-width: 24.313rem;
+                    max-width: 24.2rem;
                     width: 100%;
                     font-size: 00.938rem;
                     line-height: 1.5rem;
