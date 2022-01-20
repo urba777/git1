@@ -3,8 +3,8 @@ $fontKaushanScript: 'Kaushan Script', cursive;
 $fontMontserrat: 'Montserrat', sans-serif;
 $fontRoboto: 'Roboto', sans-serif;
 //--
-$wrapper: 75rem;
-$paddingBetweenSections: 5.625rem;
+$wrapper: 62.5vw;
+$paddingBetweenSections: 9.6051227321238vh;
 //Colors:
 $colorWhite: #fff;
 $color333333: #333333;
@@ -21,55 +21,28 @@ html {
 
 body {
     max-width: 1920px;
-    width: 100%;
-}
-
-h1, h3 {
-    color: $color333333;
-    text-align: center;
-}
-
-h1 {
-    font-size: 4.5rem;
-    font-family: $fontKaushanScript;
-    font-weight: 400;
-}
-
-h2 {
-    padding-top: 2.688rem;
-    font-size: 9.375rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: $fontMontserrat;
-    line-height: 8.75rem;
-    padding-bottom: 4.563rem;
-}
-
-.line {
-    background-color: $colorWhite;
-    width: 3.75rem;
-    height: 0.188rem;
-    margin: auto;
-    margin-bottom: 4.063rem;
+    width: 100vw;
 }
 
 .firstSection {
     color: $colorWhite;
     background: url(../images/bg1.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: left top, right top;
+    background-repeat: no-repeat;
     .wrapper {
         margin: auto;
         width: $wrapper;
         nav {
-            height: 14.125rem;
-            padding-top: 1.5rem;
+            height: 24.119530416221984vh;
+            padding-top: 2.5613660618996796vh;
             position: relative;
 
             span {
                 left: 0;
                 font-family: $fontMontserrat;
                 font-weight: 700;
-                font-size: 1.875rem;
+                font-size: 3.2017075773746vh;
                 position: absolute;
                 left: 0;
             }
@@ -82,8 +55,8 @@ h2 {
                 position: absolute;
                 right: 0;
                 li {
-                    padding: 0.5rem 0;
-                    font-size: 0.875rem;
+                    padding: 0.8537886872998933vh 0;
+                    font-size: 1.4941302027748133vh;
                     display: inline-block;
                     text-transform: uppercase;
                     font-weight: 400;
@@ -91,28 +64,28 @@ h2 {
                     cursor: pointer;
                 }
                 li:first-child {
-                    margin-right: 3.5rem;
+                    margin-right: 2.9166666666666665vw;
                 }
                 li:nth-child(2), li:nth-child(4) {
-                    margin-right: 3.625rem;
+                    margin-right: 3.0208333333333335vw;
                 }
                 li:nth-child(3) {
-                    margin-right: 3.75rem;
+                    margin-right: 3.125vw;
                 }
                 li:nth-child(5) {
-                    margin-right: 3.25rem;
+                    margin-right: 2.7083333333333335vw;
                 }
                 li:nth-child(7) {
-                    margin-left: 2.563rem;                 
+                    margin-left: 2.1358333333333333vw;                 
                 }
                 li:nth-child(6), li:nth-child(7){
                     position: relative;
                 }
                 li:nth-child(6) {
-                    top: 0.125rem;               
+                    top: 0.21344717182497333vh;               
                 }
                 li:nth-child(7) {
-                    top: 0.313rem;               
+                    top: 0.5344717182497332vh;               
                 }
                 li:hover {
                     color: $colorNavButtonHover;
@@ -122,24 +95,24 @@ h2 {
         }
 
         .centered {
-            padding-bottom: 10.813rem;
+            padding-bottom: 18.46403415154749vh;
             text-align: center;
             h1 {
                 text-align: center;
-                font-size: 4.5rem;
+                font-size: 7.68409818569904vh;
                 font-family: $fontKaushanScript;
                 font-weight: 400;
                 color: $colorWhite;
             }
     
             h2 {
-                padding-top: 2.688rem;
-                font-size: 9.375rem;
+                padding-top: 4.589967982924226vh;
+                font-size: 16.008537886873vh;
                 font-weight: 700;
                 text-transform: uppercase;
                 font-family: $fontMontserrat;
-                line-height: 8.75rem;
-                padding-bottom: 4.563rem;
+                line-height: 14.941302027748133vh;
+                padding-bottom: 7.791675560298826vh;
             }
     
             .line {
@@ -152,12 +125,12 @@ h2 {
     
             a {
                 text-decoration: none;
-                font-size: 0.875rem;
+                font-size: 1.4941302027748133vh;
                 color: $colorWhite;
                 font-weight: 700;
                 font-family: $fontMontserrat;
                 border: 0.188rem solid $colorWhite;
-                padding: 0.75rem 1.813rem;
+                padding: 1.2806830309498398vh 1.5108333333333333vw;
             }
             a:hover {
                 color: $firstSectionSliderHover;
@@ -167,11 +140,11 @@ h2 {
 
         .selections {
             position: relative;
-            padding-bottom: 1.25rem;
+            padding-bottom: 2.134471718249733vh;
             color: $colorWhiteRgba;
             .sliders {
                 display: inline-block;
-                margin-right: 1.875rem;
+                margin-right: 1.5625vw;
                 cursor: pointer;
             }
             .sliders:last-child {
@@ -189,25 +162,28 @@ h2 {
             }
             .sliderFirstSection {
                 background-color: $colorWhiteRgba;
-                width: 17.5rem;
-                height: 0.188rem;
+                width: 14.583333333333334vw;
+                height: 0.32102454642475986vh;
                 .hoverSliderFirstSection {
                     display: none;
-                    width: 4.375rem;
-                    height: 0.188rem;
+                    width: 3.6458333333333335vw;
+                    height: 0.32102454642475986vh;
                     background-color: $firstSectionSliderHover;
                 }
             }
             .firstSectionNumberAndText {
-                margin-top: 1.375rem;
+                margin-top: 2.3479188900747063vh;
                 text-align: left;
+                white-space: nowrap;
                 span.firstSectionNumber {
-                    font-size: 1.5rem;
+                    font-size: 2.5613660618996796vh;
+                    display: inline-block;
                     font-weight: 700;
                     font-family: $fontMontserrat;
                 }
                 span.firstSectionText {
-                    font-size: 1.125rem;
+                    display: inline-block;
+                    font-size: 1.92102454642476vh;
                     font-weight: 400;
                     font-family: $fontMontserrat;
                     text-transform: uppercase;
@@ -220,8 +196,10 @@ h2 {
 .secondSection {
     padding-top: $paddingBetweenSections;
     .wrapper {
-        width: $wrapper;
+        max-width: 1200px;
+        width: 100%;
         margin: auto;
+        text-align: center;
         h1, h3 {
             color: $color333333;
             display: block;
@@ -231,30 +209,32 @@ h2 {
         }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
+            display: block;
+            margin: auto;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
-            margin-bottom: 2.5rem;
+            margin-bottom: 4.268943436499466vh;
         }
         .line {
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 2.875rem;
+            margin-bottom: 7.04375667022412vh;
             background-color: $firstSectionSliderHover;
         }
         p {
             text-align: center;
-            width: 59rem;
-            height: 8.75rem;
-            font-size: 0.938rem;
-            line-height: 1.5rem;
+            width: 49.166666666666664vw;
+            height: 14.941302027748133vh;
+            font-size: 1.6008537886873vh;
+            line-height: 2.5613660618996796vh;
             color: $color999999;
             font-weight: 400;
             font-family: $fontRoboto;
@@ -266,8 +246,8 @@ h2 {
             .imageWithHover {
                 position: relative;
                 display: inline-block;
-                width: 31.66%;
-                height: 15.625rem;
+                // width: 19.791666666666668vw;
+                // height: 26.680896478121664vh;
                 div.secondSectionImage {
                     background-image: url(../images/computer.jpg);
                     width: 100%;
@@ -306,7 +286,8 @@ h2 {
                 }
                 img.blueScreen {
                     z-index: 0;
-
+                    width: 19.791666666666668vw;
+                    height: 26.680896478121664vh;
                 }  
             }
             
@@ -323,19 +304,19 @@ h2 {
             .imageWithHover2 {
                 position: relative;
                 display: inline-block;
-                width: 31.66%;
-                height: 15.625rem;
+                width: 19.791666666666668vw;
+                height: 26.680896478121664vh;
                 margin: 0px 2.5%;
                 div.secondSectionImage {
                     background-image: url(../images/headphones.jpg);
-                    width: 23.75rem;
-                    height: 15.625rem;
+                    width: 100%;
+                    height: 100%;
                     position: absolute;
                     z-index: 1;
                 }
                 .overlaySecondSection {
-                    width: 23.75rem;
-                    height: 15.625rem;
+                    width: 100%;
+                    height: 100%;
                     background: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);
                     opacity: 0.9;
                     position: absolute;
@@ -364,6 +345,8 @@ h2 {
                 }
                 img.blueScreen {
                     z-index: 0;
+                    width: 19.791666666666668vw;
+                    height: 26.680896478121664vh;
                 }  
             }
             
@@ -380,18 +363,16 @@ h2 {
             .imageWithHover3 {
                 position: relative;
                 display: inline-block;
-                width: 31.66%;
-                height: 15.625rem;
                 div.secondSectionImage {
                     background-image: url(../images/table.jpg);
-                    width: 23.75rem;
-                    height: 15.625rem;
+                    width: 100%;
+                    height: 100%;
                     position: absolute;
                     z-index: 1;
                 }
                 .overlaySecondSection {
-                    width: 23.75rem;
-                    height: 15.625rem;
+                    width: 100%;
+                    height: 100%;
                     background: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);
                     opacity: 0.9;
                     position: absolute;
@@ -420,7 +401,8 @@ h2 {
                 }
                 img.blueScreen {
                     z-index: 0;
-
+                    width: 19.791666666666668vw;
+                    height: 26.680896478121664vh;
                 }  
             }
             
@@ -450,20 +432,21 @@ h2 {
             border-left: 0.063rem solid $colorWhiteRgba;
             .thirdSectionNumberAndText {
                 text-align: center;
-                padding: 5.625rem 0;
+                padding: 9.6051227321238vh 0;
                 h1 {
                     color: $colorWhite;
-                    font-size: 4.5rem;
+                    font-size: 7.68409818569904vh;
                     font-weight: 700;
                     font-family: $fontMontserrat;
                     margin: 0 auto;
-                    padding-bottom: 20px;
+                    padding-bottom: 2.134471718249733vh;
                 }
                 h2 {
                     color: $colorWhite;
-                    font-size: 0.875rem;
+                    font-size: 1.4941302027748133vh;
                     font-weight: 400;
                     font-family: $fontMontserrat;
+                    white-space: nowrap;
                 }
             }
         }
@@ -487,23 +470,24 @@ h2 {
         }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
+            display: block;
+            margin: auto;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
-            margin-bottom: 2.5rem;
+            margin-bottom: 4.268943436499466vh;
         }
         .line {
-            background-color: $colorWhite;
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 4.125rem;
+            margin-bottom: 7.04375667022412vh;
             background-color: $firstSectionSliderHover;
         }
         .fourthSectionBoxes {
@@ -513,15 +497,15 @@ h2 {
                 width: 30%;
                 img {
                     display: inline-block;
-                    margin: 0 1.875rem;
-                    position: absolute;
-                    top: 0;
+                    margin: 0 1.5625vw;
+                    position: relative;
+                    top: 3.2017075773746vh;
                 }
                 .fourthSectionTitleAndParagraph {
                     display: inline-block;
                     text-align: left;
-                    position: absolute;
-                    margin-left: 5.688rem;
+                    margin-left: 4.739999999999999vw;
+                    width: 15.104166666666666vw;
                     .fourthSectionTitle {
                         font-size: 0.875rem;
                         font-family: $fontMontserrat;
@@ -530,7 +514,6 @@ h2 {
                         padding-bottom: 1.25rem;
                     }
                     p {
-                        width: 59rem;
                         height: 8.75rem;
                         font-size: 0.938rem;
                         line-height: 1.5rem;
@@ -538,7 +521,6 @@ h2 {
                         font-weight: 400;
                         font-family: $fontRoboto;
                         margin: auto;
-                        width: 18.125rem;
                     }
                 }
             }
@@ -550,7 +532,6 @@ h2 {
             }
         }
         .hrLine {
-            margin-top: 7.5rem;
             margin-bottom: 3.125rem;
             background-color: #e5e5e5;
             width: 100%;
@@ -560,41 +541,42 @@ h2 {
 }
 
 .fifthSection {
-    margin-top: 11.938rem;
+    margin-top: 20.38505869797225vh;
     padding-top: $paddingBetweenSections;
     background: url(../images/bg2.jpg);
     background-size: cover;
     text-align: center;
     h3 {
         font-family: $fontKaushanScript;
-        font-size: 1.5rem;
+        font-size: 2.5613660618996796vh;
         font-weight: 400;
-        padding-bottom: 0.938rem;
+        padding-bottom: 1.6017075773745997vh;
     }
     h1 {
         font-family: $fontMontserrat;
         font-weight: 700;
-        font-size: 1.875rem;
+        font-size: 3.2017075773746vh;
         text-transform: uppercase;
-        margin-bottom: 2.5rem;
+        margin-bottom: 4.268943436499466vh;
     }
     .line {
-        background-color: $colorWhite;
-        width: 3.75rem;
-        height: 0.188rem;
+        width: 3.125vw;
+        height: 0.32102454642475986vh;
         margin: auto;
-        margin-bottom: 2.875rem;
+        margin-bottom: 7.04375667022412vh;
         background-color: $firstSectionSliderHover;
     }
     .fifthSectionImages {
         .tablet {
             position: relative;
             left: 7.25rem;
+            width: 24.84375vw;
         }
         .mobilePhone {
             position: relative;
             right: 0.3rem;
             bottom: -5.5rem;
+            width: 14.270833333333334vw;
         }
     }
 }
@@ -605,33 +587,42 @@ h2 {
     .wrapper {
         width: $wrapper;
         margin: auto;
+        h1, h3 {
+            color: $color333333;
+            display: block;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
+            display: block;
+            margin: auto;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
-            margin-bottom: 2.5rem;
+            margin-bottom: 4.268943436499466vh;
         }
         .line {
             background-color: $colorWhite;
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 2.875rem;
+            margin-bottom: 7.04375667022412vh;
             background-color: $firstSectionSliderHover;
         }
         p {
             text-align: center;
-            width: 60rem;
-            height: 8.125rem;
-            font-size: 0.938rem;
-            line-height: 1.5rem;
+            width: 49.166666666666664vw;
+            height: 14.941302027748133vh;
+            font-size: 1.6008537886873vh;
+            line-height: 2.5613660618996796vh;
             color: $color999999;
             font-weight: 400;
             font-family: $fontRoboto;
@@ -644,7 +635,8 @@ h2 {
             margin-bottom: 7.5rem;
             .personimage {
                 display: inline-block;
-                width: 47.5%;
+                // width: 47.5%;
+                // height: 28.8153681963714vh;
                 margin-right: 2.5%;
             }
             .sixthSectionRightSide {
@@ -653,7 +645,7 @@ h2 {
                 position: absolute;
                 top: 0;
                 .sixthSectionRightSideParagraph {
-                    height: 9rem;
+                    height: 15.36819637139808vh;
                     border-right: 0.063rem solid #e5e5e5;
                     border-left: 0.063rem solid #e5e5e5;
                     border-bottom: 0.063rem solid #e5e5e5;
@@ -671,7 +663,7 @@ h2 {
                 }
                     p {
                         text-align: left;
-                        width: 32.5rem;
+                        width: 27.083333333333332vw;
                         height: 100%;
                         font-size: 0.938rem;
                         line-height: 1.5rem;
@@ -720,6 +712,7 @@ body > div.sixthSection > div > div.sixthSectionContainer > div > div:nth-child(
 
 section.seventhSection {
     background-color: $colorf8f8f8;
+    width: 100vw;
     .wrapper {
         width: $wrapper;
         margin: auto;
@@ -727,7 +720,7 @@ section.seventhSection {
         img.arrow {
             display: inline-block;
             cursor: pointer;
-            margin: 0 0.938rem;
+            // margin: 0 0.938rem;
             position: relative;
             bottom: 8rem;
         }
@@ -740,26 +733,29 @@ section.seventhSection {
                     display: table-cell;
                     vertical-align: middle;
                     padding: 4.375rem 3.75rem;
+                    // width: 14.583333333333334vw;
                 }
                 .seventhSectionParagraph {
                     display: table-cell;
                     vertical-align: middle;
                     position: relative;
                     p {
-                        width: 48.125rem;
-                        font-size: 1.5rem;
-                        line-height: 2.25rem;
+                        // width: 64.166%;
+                        font-size: 2.5613660618996796vh;
+                        line-height: 3.84204909284952vh;
                         color: $color999999;
                         font-weight: 300;
                         font-style: italic;
                         font-family: $fontRoboto;         
-                        margin-bottom: 2.5rem;
+                        margin-bottom: 4.268943436499466vh;
                     }
                     .line {
                         position: absolute;
                         left: 0;
-                        bottom: 0.5rem;
+                        bottom: 7.853789vh;
                         background-color: $firstSectionSliderHover;
+                        width: 3.125vw;
+                        height: 0.32102454642475986vh;
                     }
                     h4 {
                         font-size: 1.5rem;
@@ -773,5 +769,507 @@ section.seventhSection {
                 }
             }
         }
+    }
+}
+
+//MEDIA////////////////////////////////////////////////////////////////////
+
+@media screen and (max-width: 1240px) {
+    .firstSection {
+        color: $colorWhite;
+        background: url(../images/bg1.jpg);
+        background-size: 100% 100%;
+        background-position: left top, right top;
+        background-repeat: no-repeat;
+        .wrapper {
+            margin: auto;
+            width: $wrapper;
+            nav {
+                height: 24.119530416221984vh;
+                padding-top: 2.5613660618996796vh;
+                position: relative;
+    
+                span {
+                    display: block;
+                    left: 0;
+                    font-family: $fontMontserrat;
+                    font-weight: 700;
+                    font-size: 3.2017075773746vh;
+                    // position: absolute;
+                    left: 0;
+                }
+    
+                span:hover {
+                    cursor: pointer;
+                }
+    
+                ul {
+                    display: block;
+                    // position: absolute;
+                    // right: 0;
+                    li {
+                        padding: 0.8537886872998933vh 0;
+                        font-size: 1.4941302027748133vh;
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-family: $fontMontserrat;
+                        cursor: pointer;
+                    }
+                    li:first-child {
+                        margin-right: 2.9166666666666665vw;
+                    }
+                    li:nth-child(2), li:nth-child(4) {
+                        margin-right: 3.0208333333333335vw;
+                    }
+                    li:nth-child(3) {
+                        margin-right: 3.125vw;
+                    }
+                    li:nth-child(5) {
+                        margin-right: 2.7083333333333335vw;
+                    }
+                    li:nth-child(7) {
+                        margin-left: 2.1358333333333333vw;                 
+                    }
+                    li:nth-child(6), li:nth-child(7){
+                        position: relative;
+                    }
+                    li:nth-child(6) {
+                        top: 0.21344717182497333vh;               
+                    }
+                    li:nth-child(7) {
+                        top: 0.5344717182497332vh;               
+                    }
+                    li:hover {
+                        color: $colorNavButtonHover;
+                        border-bottom: 0.188rem solid $colorNavButtonHover;
+                    }
+                }
+            }
+    
+            .centered {
+                padding-bottom: 18.46403415154749vh;
+                text-align: center;
+                h1 {
+                    text-align: center;
+                    font-size: 7.68409818569904vh;
+                    font-family: $fontKaushanScript;
+                    font-weight: 400;
+                    color: $colorWhite;
+                }
+        
+                h2 {
+                    font-size: 8.008538vh;
+                    line-height: 10vh;
+                    padding-bottom: 3.791675560298826vh;
+                }
+        
+                .line {
+                    background-color: $colorWhite;
+                    width: 3.75rem;
+                    height: 0.188rem;
+                    margin: auto;
+                    margin-bottom: 4.063rem;
+                }
+        
+                a {
+                    text-decoration: none;
+                    font-size: 1.4941302027748133vh;
+                    color: $colorWhite;
+                    font-weight: 700;
+                    font-family: $fontMontserrat;
+                    border: 0.188rem solid $colorWhite;
+                    padding: 1.2806830309498398vh 1.5108333333333333vw;
+                }
+                a:hover {
+                    color: $firstSectionSliderHover;
+                    border-color: $firstSectionSliderHover;
+                }
+            }
+    
+            .selections {
+                position: relative;
+                padding-bottom: 2.134471718249733vh;
+                color: $colorWhiteRgba;
+                .sliders {
+                    display: inline-block;
+                    margin-right: 1.5625vw;
+                    cursor: pointer;
+                }
+                .sliders:last-child {
+                    position: absolute;
+                    margin-right: 0;
+                }
+                .sliders:hover .hoverSliderFirstSection {
+                    display: block;
+                }
+                .sliders:hover .sliderFirstSection {
+                    background-color: $colorWhite;
+                }
+                .sliders:hover .firstSectionNumberAndText {
+                    color: $colorWhite;
+                }
+                .sliderFirstSection {
+                    background-color: $colorWhiteRgba;
+                    width: 14.583333333333334vw;
+                    height: 0.32102454642475986vh;
+                    .hoverSliderFirstSection {
+                        display: none;
+                        width: 3.6458333333333335vw;
+                        height: 0.32102454642475986vh;
+                        background-color: $firstSectionSliderHover;
+                    }
+                }
+                .firstSectionNumberAndText {
+                    margin-top: 2.3479188900747063vh;
+                    text-align: left;
+                    white-space: nowrap;
+                    span.firstSectionNumber {
+                        font-size: 2.5613660618996796vh;
+                        display: inline-block;
+                        font-weight: 700;
+                        font-family: $fontMontserrat;
+                    }
+                    span.firstSectionText {
+                        display: inline-block;
+                        font-size: 1.92102454642476vh;
+                        font-weight: 400;
+                        font-family: $fontMontserrat;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    section.seventhSection {
+        background-color: $colorf8f8f8;
+        width: 100vw;
+        .wrapper {
+            width: $wrapper;
+            margin: auto;
+            font-size: 0;
+            img.arrow {
+                display: inline-block;
+                cursor: pointer;
+                // margin: 0 0.938rem;
+                position: relative;
+                bottom: 8rem;
+            }
+            .seventhSectionMiddleBox {
+                display: inline-block;
+                width: 92%;
+                div.seventhSectionMiddle {
+                    display: table;
+                    img {
+                        display: table-cell;
+                        vertical-align: middle;
+                        padding: 4.375rem 3.75rem;
+                        // width: 14.583333333333334vw;
+                    }
+                    .seventhSectionParagraph {
+                        display: table-cell;
+                        vertical-align: middle;
+                        position: relative;
+                        p {
+                            // width: 64.166%;
+                            font-size: 2.5613660618996796vh;
+                            line-height: 3.84204909284952vh;
+                            color: $color999999;
+                            font-weight: 300;
+                            font-style: italic;
+                            font-family: $fontRoboto;         
+                            margin-bottom: 4.268943436499466vh;
+                        }
+                        .line {
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            background-color: $firstSectionSliderHover;
+                            width: 3.125vw;
+                            height: 0.32102454642475986vh;
+                        }
+                        h4 {
+                            font-size: 1.5rem;
+                            color: $color333333;
+                            font-weight: 400;
+                            font-family: $fontKaushanScript;
+                            position: absolute;
+                            bottom: 0;
+                            left: 4.375rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1216px) {
+    .sixthSection {
+        padding-top: $paddingBetweenSections;
+        .wrapper {
+            .sixthSectionContainer {
+                text-align: center;
+                .personimage {
+                    margin-right: 0;
+                    width: 70%;
+                }
+                .sixthSectionRightSide {
+                    top: 30px;
+                    display: block;
+                    margin: auto;
+                    width: 70%;
+                    position: relative;
+                    text-align: left;
+                    .sixthSectionRightSideParagraph {
+                        height: 15.36819637139808vh;
+                        border-right: 0.063rem solid #e5e5e5;
+                        border-left: 0.063rem solid #e5e5e5;
+                        border-bottom: 0.063rem solid #e5e5e5;
+                        padding: 1.313rem 0;
+                    ::-webkit-scrollbar {
+                        width: 0.313rem;
+                    }
+                    ::-webkit-scrollbar-track {
+                        background-color: #f5f5f5;
+                        border-radius: 0.125rem;
+                    }
+                    ::-webkit-scrollbar-thumb {
+                        background: #95e1d3;
+                        border-radius: 0.125rem;                  
+                    }
+                        p {
+                            text-align: left;
+                            width: 27.083333333333332vw;
+                            height: 100%;
+                            font-size: 0.938rem;
+                            line-height: 1.5rem;
+                            color: $color999999;
+                            font-weight: 300;
+                            font-family: $fontRoboto;
+                            font-style: italic;
+                            overflow: scroll;
+                            overflow-x: hidden;
+                            padding-right: 1.25rem;
+                        }
+                    }
+                    .arrow:hover {
+                        cursor: pointer;
+                    }
+                    .sixthSectionRightSideStuff {
+                        padding: 0.875rem;
+                        border: 0.063rem solid #e5e5e5;
+                        position: relative;
+                        img {
+                            display: inline-block;
+                            margin-right: 0.938rem;
+                        }
+                        h1 {
+                            display: inline-block;
+                            font-size: 0.875rem;
+                            position: absolute;  
+                            top: 1.438rem;       
+                            font-family: $fontMontserrat;
+                            font-weight: 400;          
+                        }
+                        img:last-child {
+                            position: absolute;
+                            right: 0;
+                            top: 1.4rem;                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .firstSection .wrapper .centered h2 {
+        font-size: 6.008538vh;
+        line-height: 10vh;
+        padding-bottom: 3.791675560298826vh;
+    }
+    .firstSection .wrapper nav ul {
+        position: absolute;
+        top: 85px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox {
+        position: relative;
+        display: inline-block;
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .arrow {
+        display: none !important;
+    }
+    .firstSection .wrapper .centered h2 {
+        font-size: 4.008538vh;
+        line-height: 4vh;
+        padding-bottom: 3.791675560298826vh;
+    }
+    .firstSection .wrapper .centered h1 {
+        font-size: 3.684098vh;
+    }
+    .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph .fourthSectionTitle {
+        padding-left: 75px;
+    }
+    .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox {
+        display: block;
+    }
+    .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox img {
+        margin: 0;
+    }
+    .fourthSection .wrapper .hrLine {
+        display: none;
+    }
+    .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h1 {
+        font-size: 1.684098vh;
+    }
+    .thirdSection .wrapper {
+        width: 100vw;
+    }
+    .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h2 {
+        font-size: 0.49413vh;
+    }
+    .sixthSection .wrapper .sixthSectionContainer {
+        margin-top: 125px;
+    }
+    .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff h1 {
+        font-size: 10px;
+        left: 39px;
+        top: 1.438rem;
+    }
+    .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff img {
+        display: inline-block;
+        margin-right: 0.938rem;
+        width: 10%;
+    }
+    .fifthSection .fifthSectionImages .tablet {
+        position: relative;
+        left: 1.25rem;
+        bottom: -3px;
+        width: 24.84375vw;
+    }
+    .fifthSection .fifthSectionImages .mobilePhone {
+        position: relative;
+        right: 0.3rem;
+        bottom: -17px;
+        width: 14.270833333333334vw;
+    }
+    .secondSection .wrapper p {
+        padding-bottom: 152px;
+    }
+    body > div.secondSection > div > div.secondSectionImages > div.imageWithHover > div.overlaySecondSection > span > h1 {
+        display: none;
+    }
+    body > div.secondSection > div > div.secondSectionImages > div.imageWithHover2 > div.overlaySecondSection > span > h1{
+        display: none;
+    }
+    body > div.secondSection > div > div.secondSectionImages > div.imageWithHover3 > div.overlaySecondSection > span > h1 {
+        display: none;
+    }
+    .tenthSection p {
+        padding-bottom: 152px;
+    }
+
+    section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMiddle .eleventhSectionParagraph p {
+        font-size: 1.561366vh;
+        line-height: 1.84204909284952vh;
+    }
+    .twelfthSection .wrapper .clientBox {
+        display: block !important;
+        margin: auto !important;
+    }
+    section.seventhSection .wrapper {
+        width: 100vw !important;
+        text-align: center;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle {
+        display: block;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle img {
+        // margin-bottom: 0;
+        margin: 0 auto !important;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph p {
+        font-size: 12px;
+        width: 76%;
+        margin: auto;
+        padding-bottom: 49px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    body > section.eleventhSection > div > div > div > div > h4 {
+        bottom: 0 !important;
+    }
+    section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMiddle .eleventhSectionParagraph .line {
+        bottom: 0 !important;
+    }
+    section.eleventhSection .wrapper {
+        width: 100vw !important;
+    }
+    section.eleventhSection .wrapper .eleventhSectionMiddleBox {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .fourthSection .wrapper h1 {
+        font-size: 2.201708vh !important;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle img {
+        margin-bottom: 234px;
+    }
+    .section13 .wrapper .section13LatestBlogs .section13Box {
+        width: 100% !important;
+        margin-bottom: 5vh !important;
+        .section13BoxImage img {
+            width: 13.75rem !important;
+        }
+    }
+    .section13 .wrapper .section13LatestBlogs .section13Box:nth-child(2) {
+        margin: 0 0 !important;
+    }
+    .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox {
+        margin-right: 0 !important;
+    }
+    .section13 .wrapper .section13LatestBlogs .section13Box p.section13p {
+        width: 13.75rem !important;
+    }
+    .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionText {
+        font-size: 1.221025vh;
+    }
+    .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox img.blueScreen {
+        z-index: 0;
+        height: 18.75rem;
+        width: 18.75rem;
+    }
+    .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox div.eighthSectionImage {
+        width: 18.75rem !important;
+        height: 18.75rem !important;
+    }
+    .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox .overlaySecondSection {
+        width: 18.75rem !important;
+        height: 18.75rem !important;
+    }
+    .eighthSection .wrapper p {
+        margin-bottom: 10.227272727272727vh !important; 
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph h4 {
+        bottom: 4vh;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph {
+        padding-bottom: 4vh;
+    }
+    section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph .line {
+        left: 40px;
+        bottom: 4vh;
     }
 }

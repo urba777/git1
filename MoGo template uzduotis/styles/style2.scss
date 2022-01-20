@@ -4,8 +4,8 @@ $fontMontserrat: 'Montserrat', sans-serif;
 $fontRoboto: 'Roboto', sans-serif;
 //--
 // $wrapper: 75rem;
-$wrapper: 62.5%rem;
-$paddingBetweenSections: 5.625rem;
+$wrapper: 62.5vw;
+$paddingBetweenSections: 9.6051227321238vh;
 //Colors:
 $colorWhite: #fff;
 $color333333: #333333;
@@ -18,8 +18,9 @@ $firstSectionSliderHover: #f38181;
 
 .eighthSection {
     padding-top: $paddingBetweenSections;
+    width: 100vw;
     .wrapper {
-        width: $wrapper;
+        // width: $wrapper;
         margin: auto;
         h1, h3 {
             color: $color333333;
@@ -30,31 +31,33 @@ $firstSectionSliderHover: #f38181;
         }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
+            display: block;
+            margin: auto;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
-            margin-bottom: 2.5rem;
+            margin-bottom: 4.268943436499466vh;
         }
         .line {
             background-color: $colorWhite;
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 4.125rem;
+            margin-bottom: 7.04375667022412vh;
             background-color: $firstSectionSliderHover;
         }
         p {
             text-align: center;
-            width: 59rem;
-            height: 8.75rem;
-            font-size: 0.938rem;
-            line-height: 1.5rem;
+            width: 49.166666666666664vw;
+            height: 14.941302027748133vh;
+            font-size: 1.6008537886873vh;
+            line-height: 2.5613660618996796vh;
             color: $color999999;
             font-weight: 400;
             font-family: $fontRoboto;
@@ -177,22 +180,19 @@ $firstSectionSliderHover: #f38181;
 }
 
 .ninthSection {
-    padding: 3rem 0;
+    width: 100vw;
+    padding: 5.122732123799359vh 0;
     background-color: $colorf8f8f8;
     text-align: center;
     img {
         width: 62.5%;
     }
-    // .wrapper {
-    //     width: $wrapper;
-    //     margin: auto;
-    //     text-align: center;
-    // }
 }
 
 .tenthSection {
-    width: 100%;
+    width: 100vw;
     padding-top: $paddingBetweenSections;
+    text-align: center;
     h1, h3 {
             color: $color333333;
             display: block;
@@ -202,39 +202,39 @@ $firstSectionSliderHover: #f38181;
         }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
+            display: block;
+            margin: auto;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
-            margin-bottom: 2.5rem;
+            margin-bottom: 4.268943436499466vh;
         }
         .line {
-            background-color: $colorWhite;
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 4.125rem;
+            margin-bottom: 7.04375667022412vh;
             background-color: $firstSectionSliderHover;
         }
         p {
             text-align: center;
-            width: 59rem;
-            height: 8.75rem;
-            font-size: 0.938rem;
-            line-height: 1.5rem;
+            width: 49.166666666666664vw;
+            height: 14.941302027748133vh;
+            font-size: 1.6008537886873vh;
+            line-height: 2.5613660618996796vh;
             color: $color999999;
             font-weight: 400;
             font-family: $fontRoboto;
             margin: auto;
         }
         .tenthSectionImages {
-            max-width: 1920px;
-            width: 100%;
+            width: 100vw;
             font-size: 0;
             .fourImages img {
                 width: 50%;
@@ -262,8 +262,8 @@ $firstSectionSliderHover: #f38181;
 }
 
 section.eleventhSection {
-    // width: 100vw;
-    padding: 3rem 0;
+    width: 100vw;
+    padding: 5.122732123799359vh 0;
     .wrapper {
         width: $wrapper;
         margin: auto;
@@ -271,9 +271,9 @@ section.eleventhSection {
         img.arrow {
             display: inline-block;
             cursor: pointer;
-            margin: 0 0.938rem;
+            // margin: 0 0.7816666666666666vw;
             position: relative;
-            bottom: 8rem;
+            bottom: 13.660618996798293vh;
         }
         .eleventhSectionMiddleBox {
             display: inline-block;
@@ -283,36 +283,39 @@ section.eleventhSection {
                 img {
                     display: table-cell;
                     vertical-align: middle;
-                    padding: 4.375rem 3.75rem;
+                    padding: 7.4706510138740665vh 3.125vw;
+                    width: 14.583333333333334vw;
                 }
                 .eleventhSectionParagraph {
                     display: table-cell;
                     vertical-align: middle;
                     position: relative;
                     p {
-                        width: 64.166%;
-                        font-size: 1.5rem;
-                        line-height: 2.25rem;
+                        // width: 64.166%;
+                        font-size: 2.5613660618996796vh;
+                        line-height: 3.84204909284952vh;
                         color: $color999999;
                         font-weight: 300;
                         font-style: italic;
                         font-family: $fontRoboto;         
-                        margin-bottom: 2.5rem;
+                        margin-bottom: 4.268943436499466vh;
                     }
                     .line {
                         position: absolute;
                         left: 0;
-                        bottom: 0.5rem;
+                        bottom: 7.853789vh;
                         background-color: $firstSectionSliderHover;
+                        width: 3.125vw;
+                        height: 0.32102454642475986vh;
                     }
                     h4 {
-                        font-size: 1.5rem;
+                        font-size: 2.5613660618996796vh;
                         color: $color333333;
                         font-weight: 400;
                         font-family: $fontKaushanScript;
                         position: absolute;
-                        bottom: 4.188rem;
-                        left: 4.375rem;
+                        bottom: 7.151334044823905vh;
+                        left: 3.6458333333333335vw;
                     }
                 }
             }
@@ -323,10 +326,13 @@ section.eleventhSection {
 .twelfthSection {
     padding-top: $paddingBetweenSections;
     background-image: url(../images/bg3.jpg);
-    // width: 100vw;
-    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    width: 100vw;
     .wrapper {
         max-width: $wrapper;
+        margin: auto;
         font-size: 0;
         h1, h3 {
             color: $color333333;
@@ -337,51 +343,51 @@ section.eleventhSection {
         }
         h3 {
             font-family: $fontKaushanScript;
-            font-size: 1.5rem;
+            font-size: 2.5613660618996796vh;
             font-weight: 400;
-            padding-bottom: 0.938rem;
+            padding-bottom: 1.6017075773745997vh;
         }
         h1 {
             font-family: $fontMontserrat;
             font-weight: 700;
-            font-size: 1.875rem;
+            font-size: 3.2017075773746vh;
             text-transform: uppercase;
             margin-bottom: 2.5rem;
         }
         .line {
             background-color: $colorWhite;
-            width: 3.75rem;
-            height: 0.188rem;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
             margin: auto;
-            margin-bottom: 5.438rem;
+            margin-bottom: 9.285805763073638vh;
             background-color: $firstSectionSliderHover;
         }
         .clientBox {
             display: inline-block;
             width: 50%;
-            margin-bottom: 4.375rem;
+            margin-bottom: 7.4706510138740665vh;
             img {
                 display: inline-block;
-                padding: 0 2.5rem 3.25rem 1.875rem;
+                padding: 0 2.0833333333333335vw 5.549626467449306vh 1.5625vw;
             }
             .twelfthSectionText {
                 display: inline-block;
                 text-align: left;
                 position: relative;
-                top: -1.5rem;
+                top: -2.5613660618996796vh;
                 h5 {
-                    margin-bottom: 0.8rem;
+                    margin-bottom: 1.3660618996798293vh;
                     white-space: nowrap;
-                    font-size: 0.875rem;
+                    font-size: 1.4941302027748133vh;
                     color: $color333333;
                     font-weight: 400;
                     font-family: $fontMontserrat;
                     text-transform: uppercase;
                 }
                 h2 {
-                    margin-bottom: 0.8rem;
-                    font-size: 0.938rem;
-                    line-height: 1.5rem;
+                    margin-bottom: 1.3660618996798293vh;
+                    font-size: 1.6017075773745997vh;
+                    line-height: 2.5613660618996796vh;
                     color: $color333333;
                     font-weight: 300;
                     font-style: italic;
@@ -389,16 +395,16 @@ section.eleventhSection {
                     text-transform: none;
                 }
                 .line12 {
-                    width: 3.75rem;
-                    height: 0.188rem;
+                    width: 3.125vw;
+                    height: 0.32102454642475986vh;
                     background-color: $firstSectionSliderHover;
-                    margin-bottom: 0.8rem;
+                    margin-bottom: 1.3660618996798293vh;
                 }
                 p {
-                    max-width: 24.2rem;
+                    max-width: 20.166666666666668vw;
                     width: 100%;
-                    font-size: 00.938rem;
-                    line-height: 1.5rem;
+                    font-size: 1.6017075773745997vh;
+                    line-height: 2.5613660618996796vh;
                     color: $color999999;
                     font-weight: 400;
                     font-family: $fontRoboto;
@@ -409,5 +415,158 @@ section.eleventhSection {
 }
 
 body > section.twelfthSection > div > div:nth-child(6) {
-    padding-bottom: 3.125rem;
+    padding-bottom: 5.336179295624333vh;
+}
+
+.section13 {
+    padding-top: $paddingBetweenSections;
+    .wrapper {
+        max-width: $wrapper;
+        margin: auto;
+        font-size: 0;
+        h1, h3 {
+            color: $color333333;
+            display: block;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
+        h3 {
+            font-family: $fontKaushanScript;
+            font-size: 2.5613660618996796vh;
+            font-weight: 400;
+            padding-bottom: 1.6017075773745997vh;
+        }
+        h1 {
+            font-family: $fontMontserrat;
+            font-weight: 700;
+            font-size: 3.2017075773746vh;
+            text-transform: uppercase;
+            margin-bottom: 2.5rem;
+        }
+        .line {
+            background-color: $colorWhite;
+            width: 3.125vw;
+            height: 0.32102454642475986vh;
+            margin: auto;
+            margin-bottom: 9.285805763073638vh;
+            background-color: $firstSectionSliderHover;
+        }
+        .section13LatestBlogs {
+            padding-bottom: 13.068181818181818vh;
+            .section13Box:nth-child(2) {
+                margin: 0 5%;
+            }
+            .section13Box {
+                display: inline-block;
+                width: 30%;
+                .section13BoxImage {
+                    position: relative;
+                    margin-bottom: 2.134471718249733vh;
+                    img {
+                        width: 19.791666666666668vw;
+                        cursor: pointer;
+                    }
+                    .section13block {
+                        cursor: pointer;
+                        text-align: center;
+                        padding-top: 1.1363636363636365vh;
+                        box-sizing: border-box;
+                        width: 3.75rem;
+                        height: 4.375rem;
+                        background-color: $colorLightBlue;
+                        position: absolute;
+                        left: -0.625rem;
+                        bottom: 0.625rem;                        
+                        .section13day {
+                            font-size: 3.409090909090909vh;
+                            color: $colorWhite;
+                            font-weight: 700;
+                            font-family: $fontMontserrat;
+                        }
+                        .section13month {
+                            font-size: 2.409091vh;
+                            color: $colorWhite;
+                            font-weight: 300;
+                            font-family: $fontMontserrat;
+                        }
+                    }
+                }
+                .section13Title {
+                    font-size: 1.4941302027748133vh;
+                    color: $color333333;
+                    font-weight: 400;
+                    font-family: $fontMontserrat;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+                p.section13p {
+                    padding-top: 2vh;
+                    width: 19.791666666666668vw;
+                    font-size: 1.6008537886873vh;
+                    line-height: 2.5613660618996796vh;
+                    color: $color999999;
+                    font-family: $fontRoboto;
+                    padding-bottom: 2.5613660618996796vh;
+                    border-bottom: 0.063rem solid #e5e5e5;
+                    margin-bottom: 2.134471718249733vh;
+                }
+                .section13viewsAndComments {
+                    .views {
+                        margin-right: 1.0416666666666667vw;
+                        display: inline-block;
+                        cursor: pointer;
+                    }
+                    .viewsAndCommentsNumber {
+                        font-size: 1.6008537886873vh;
+                        line-height: 2.5613660618996796vh;
+                        color: $color999999;
+                        font-style: italic;
+                        font-family: $fontRoboto;
+                        margin-left: 0.46875vw;
+                        cursor: pointer;
+                    }
+                    .comments {
+                        cursor: pointer;
+                        display: inline-block;
+                        img {
+                            position: relative;
+                            top: 0.3409090909090909vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section14 {
+    width: 100vw;
+    background-image: url(../images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 6.4772727272727275vh;
+    .line {
+        background-color: $colorWhite;
+        width: 3.125vw;
+        height: 0.32102454642475986vh;
+        margin: auto;
+        background-color: $firstSectionSliderHover;
+    }
+    img {
+        padding-top: 6.4772727272727275vh;
+        padding-bottom: 2.272727272727273vh;
+    }
+    h1 {
+        font-size: 2.727272727272727vh;
+        color: $firstSectionSliderHover;
+        font-family: $fontMontserrat;
+        font-weight: 700;
+        margin-bottom: 2.272727272727273vh;
+    }
+}
+
+.section14:hover {
+    cursor: pointer;
 }

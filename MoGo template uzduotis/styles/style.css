@@ -4,52 +4,25 @@ html {
 
 body {
   max-width: 1920px;
-  width: 100%;
-}
-
-h1, h3 {
-  color: #333333;
-  text-align: center;
-}
-
-h1 {
-  font-size: 4.5rem;
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-}
-
-h2 {
-  padding-top: 2.688rem;
-  font-size: 9.375rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  line-height: 8.75rem;
-  padding-bottom: 4.563rem;
-}
-
-.line {
-  background-color: #fff;
-  width: 3.75rem;
-  height: 0.188rem;
-  margin: auto;
-  margin-bottom: 4.063rem;
+  width: 100vw;
 }
 
 .firstSection {
   color: #fff;
   background: url(../images/bg1.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
 }
 
 .firstSection .wrapper {
   margin: auto;
-  width: 75rem;
+  width: 62.5vw;
 }
 
 .firstSection .wrapper nav {
-  height: 14.125rem;
-  padding-top: 1.5rem;
+  height: 24.119530416221984vh;
+  padding-top: 2.5613660618996796vh;
   position: relative;
 }
 
@@ -57,7 +30,7 @@ h2 {
   left: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 3.2017075773746vh;
   position: absolute;
   left: 0;
 }
@@ -72,8 +45,8 @@ h2 {
 }
 
 .firstSection .wrapper nav ul li {
-  padding: 0.5rem 0;
-  font-size: 0.875rem;
+  padding: 0.8537886872998933vh 0;
+  font-size: 1.4941302027748133vh;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
@@ -82,23 +55,23 @@ h2 {
 }
 
 .firstSection .wrapper nav ul li:first-child {
-  margin-right: 3.5rem;
+  margin-right: 2.9166666666666665vw;
 }
 
 .firstSection .wrapper nav ul li:nth-child(2), .firstSection .wrapper nav ul li:nth-child(4) {
-  margin-right: 3.625rem;
+  margin-right: 3.0208333333333335vw;
 }
 
 .firstSection .wrapper nav ul li:nth-child(3) {
-  margin-right: 3.75rem;
+  margin-right: 3.125vw;
 }
 
 .firstSection .wrapper nav ul li:nth-child(5) {
-  margin-right: 3.25rem;
+  margin-right: 2.7083333333333335vw;
 }
 
 .firstSection .wrapper nav ul li:nth-child(7) {
-  margin-left: 2.563rem;
+  margin-left: 2.1358333333333333vw;
 }
 
 .firstSection .wrapper nav ul li:nth-child(6), .firstSection .wrapper nav ul li:nth-child(7) {
@@ -106,11 +79,11 @@ h2 {
 }
 
 .firstSection .wrapper nav ul li:nth-child(6) {
-  top: 0.125rem;
+  top: 0.21344717182497333vh;
 }
 
 .firstSection .wrapper nav ul li:nth-child(7) {
-  top: 0.313rem;
+  top: 0.5344717182497332vh;
 }
 
 .firstSection .wrapper nav ul li:hover {
@@ -119,26 +92,26 @@ h2 {
 }
 
 .firstSection .wrapper .centered {
-  padding-bottom: 10.813rem;
+  padding-bottom: 18.46403415154749vh;
   text-align: center;
 }
 
 .firstSection .wrapper .centered h1 {
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 7.68409818569904vh;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   color: #fff;
 }
 
 .firstSection .wrapper .centered h2 {
-  padding-top: 2.688rem;
-  font-size: 9.375rem;
+  padding-top: 4.589967982924226vh;
+  font-size: 16.008537886873vh;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  line-height: 8.75rem;
-  padding-bottom: 4.563rem;
+  line-height: 14.941302027748133vh;
+  padding-bottom: 7.791675560298826vh;
 }
 
 .firstSection .wrapper .centered .line {
@@ -151,12 +124,12 @@ h2 {
 
 .firstSection .wrapper .centered a {
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 1.4941302027748133vh;
   color: #fff;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   border: 0.188rem solid #fff;
-  padding: 0.75rem 1.813rem;
+  padding: 1.2806830309498398vh 1.5108333333333333vw;
 }
 
 .firstSection .wrapper .centered a:hover {
@@ -166,13 +139,13 @@ h2 {
 
 .firstSection .wrapper .selections {
   position: relative;
-  padding-bottom: 1.25rem;
+  padding-bottom: 2.134471718249733vh;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .firstSection .wrapper .selections .sliders {
   display: inline-block;
-  margin-right: 1.875rem;
+  margin-right: 1.5625vw;
   cursor: pointer;
 }
 
@@ -195,42 +168,47 @@ h2 {
 
 .firstSection .wrapper .selections .sliderFirstSection {
   background-color: rgba(255, 255, 255, 0.6);
-  width: 17.5rem;
-  height: 0.188rem;
+  width: 14.583333333333334vw;
+  height: 0.32102454642475986vh;
 }
 
 .firstSection .wrapper .selections .sliderFirstSection .hoverSliderFirstSection {
   display: none;
-  width: 4.375rem;
-  height: 0.188rem;
+  width: 3.6458333333333335vw;
+  height: 0.32102454642475986vh;
   background-color: #f38181;
 }
 
 .firstSection .wrapper .selections .firstSectionNumberAndText {
-  margin-top: 1.375rem;
+  margin-top: 2.3479188900747063vh;
   text-align: left;
+  white-space: nowrap;
 }
 
 .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionNumber {
-  font-size: 1.5rem;
+  font-size: 2.5613660618996796vh;
+  display: inline-block;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
 
 .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionText {
-  font-size: 1.125rem;
+  display: inline-block;
+  font-size: 1.92102454642476vh;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
 .secondSection {
-  padding-top: 5.625rem;
+  padding-top: 9.60512vh;
 }
 
 .secondSection .wrapper {
-  width: 75rem;
+  max-width: 1200px;
+  width: 100%;
   margin: auto;
+  text-align: center;
 }
 
 .secondSection .wrapper h1, .secondSection .wrapper h3 {
@@ -243,33 +221,35 @@ h2 {
 
 .secondSection .wrapper h3 {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.5rem;
+  font-size: 2.5613660618996796vh;
   font-weight: 400;
-  padding-bottom: 0.938rem;
+  padding-bottom: 1.6017075773745997vh;
+  display: block;
+  margin: auto;
 }
 
 .secondSection .wrapper h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 3.2017075773746vh;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.268943436499466vh;
 }
 
 .secondSection .wrapper .line {
-  width: 3.75rem;
-  height: 0.188rem;
+  width: 3.125vw;
+  height: 0.32102454642475986vh;
   margin: auto;
-  margin-bottom: 2.875rem;
+  margin-bottom: 7.04375667022412vh;
   background-color: #f38181;
 }
 
 .secondSection .wrapper p {
   text-align: center;
-  width: 59rem;
-  height: 8.75rem;
-  font-size: 0.938rem;
-  line-height: 1.5rem;
+  width: 49.166666666666664vw;
+  height: 14.941302027748133vh;
+  font-size: 1.6008537886873vh;
+  line-height: 2.5613660618996796vh;
   color: #999999;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -284,8 +264,6 @@ h2 {
 .secondSection .wrapper .secondSectionImages .imageWithHover {
   position: relative;
   display: inline-block;
-  width: 31.66%;
-  height: 15.625rem;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover div.secondSectionImage {
@@ -331,6 +309,8 @@ h2 {
 
 .secondSection .wrapper .secondSectionImages .imageWithHover img.blueScreen {
   z-index: 0;
+  width: 19.791666666666668vw;
+  height: 26.680896478121664vh;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover:hover .secondSectionImage {
@@ -347,22 +327,22 @@ h2 {
 .secondSection .wrapper .secondSectionImages .imageWithHover2 {
   position: relative;
   display: inline-block;
-  width: 31.66%;
-  height: 15.625rem;
+  width: 19.791666666666668vw;
+  height: 26.680896478121664vh;
   margin: 0px 2.5%;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover2 div.secondSectionImage {
   background-image: url(../images/headphones.jpg);
-  width: 23.75rem;
-  height: 15.625rem;
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: 1;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover2 .overlaySecondSection {
-  width: 23.75rem;
-  height: 15.625rem;
+  width: 100%;
+  height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#e2cc7b), to(#db7474));
   background: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);
   opacity: 0.9;
@@ -395,6 +375,8 @@ h2 {
 
 .secondSection .wrapper .secondSectionImages .imageWithHover2 img.blueScreen {
   z-index: 0;
+  width: 19.791666666666668vw;
+  height: 26.680896478121664vh;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover2:hover .secondSectionImage {
@@ -411,21 +393,19 @@ h2 {
 .secondSection .wrapper .secondSectionImages .imageWithHover3 {
   position: relative;
   display: inline-block;
-  width: 31.66%;
-  height: 15.625rem;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover3 div.secondSectionImage {
   background-image: url(../images/table.jpg);
-  width: 23.75rem;
-  height: 15.625rem;
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: 1;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover3 .overlaySecondSection {
-  width: 23.75rem;
-  height: 15.625rem;
+  width: 100%;
+  height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#e2cc7b), to(#db7474));
   background: linear-gradient(0deg, #e2cc7b 0%, #db7474 100%);
   opacity: 0.9;
@@ -458,6 +438,8 @@ h2 {
 
 .secondSection .wrapper .secondSectionImages .imageWithHover3 img.blueScreen {
   z-index: 0;
+  width: 19.791666666666668vw;
+  height: 26.680896478121664vh;
 }
 
 .secondSection .wrapper .secondSectionImages .imageWithHover3:hover .secondSectionImage {
@@ -476,7 +458,7 @@ h2 {
 }
 
 .thirdSection .wrapper {
-  width: 75rem;
+  width: 62.5vw;
   font-size: 0;
   margin: auto;
 }
@@ -491,23 +473,24 @@ h2 {
 
 .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText {
   text-align: center;
-  padding: 5.625rem 0;
+  padding: 9.6051227321238vh 0;
 }
 
 .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h1 {
   color: #fff;
-  font-size: 4.5rem;
+  font-size: 7.68409818569904vh;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 2.134471718249733vh;
 }
 
 .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h2 {
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 1.4941302027748133vh;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
+  white-space: nowrap;
 }
 
 .thirdSection .wrapper .thirdSectionBox:last-child {
@@ -515,11 +498,11 @@ h2 {
 }
 
 .fourthSection {
-  padding-top: 5.625rem;
+  padding-top: 9.60512vh;
 }
 
 .fourthSection .wrapper {
-  width: 75rem;
+  width: 62.5vw;
   margin: auto;
 }
 
@@ -533,25 +516,26 @@ h2 {
 
 .fourthSection .wrapper h3 {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.5rem;
+  font-size: 2.5613660618996796vh;
   font-weight: 400;
-  padding-bottom: 0.938rem;
+  padding-bottom: 1.6017075773745997vh;
+  display: block;
+  margin: auto;
 }
 
 .fourthSection .wrapper h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 3.2017075773746vh;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.268943436499466vh;
 }
 
 .fourthSection .wrapper .line {
-  background-color: #fff;
-  width: 3.75rem;
-  height: 0.188rem;
+  width: 3.125vw;
+  height: 0.32102454642475986vh;
   margin: auto;
-  margin-bottom: 4.125rem;
+  margin-bottom: 7.04375667022412vh;
   background-color: #f38181;
 }
 
@@ -563,16 +547,16 @@ h2 {
 
 .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox img {
   display: inline-block;
-  margin: 0 1.875rem;
-  position: absolute;
-  top: 0;
+  margin: 0 1.5625vw;
+  position: relative;
+  top: 3.2017075773746vh;
 }
 
 .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph {
   display: inline-block;
   text-align: left;
-  position: absolute;
-  margin-left: 5.688rem;
+  margin-left: 4.739999999999999vw;
+  width: 15.104166666666666vw;
 }
 
 .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph .fourthSectionTitle {
@@ -584,7 +568,6 @@ h2 {
 }
 
 .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph p {
-  width: 59rem;
   height: 8.75rem;
   font-size: 0.938rem;
   line-height: 1.5rem;
@@ -592,7 +575,6 @@ h2 {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   margin: auto;
-  width: 18.125rem;
 }
 
 .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox:hover {
@@ -604,7 +586,6 @@ h2 {
 }
 
 .fourthSection .wrapper .hrLine {
-  margin-top: 7.5rem;
   margin-bottom: 3.125rem;
   background-color: #e5e5e5;
   width: 100%;
@@ -612,8 +593,8 @@ h2 {
 }
 
 .fifthSection {
-  margin-top: 11.938rem;
-  padding-top: 5.625rem;
+  margin-top: 20.38505869797225vh;
+  padding-top: 9.60512vh;
   background: url(../images/bg2.jpg);
   background-size: cover;
   text-align: center;
@@ -621,79 +602,90 @@ h2 {
 
 .fifthSection h3 {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.5rem;
+  font-size: 2.5613660618996796vh;
   font-weight: 400;
-  padding-bottom: 0.938rem;
+  padding-bottom: 1.6017075773745997vh;
 }
 
 .fifthSection h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 3.2017075773746vh;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.268943436499466vh;
 }
 
 .fifthSection .line {
-  background-color: #fff;
-  width: 3.75rem;
-  height: 0.188rem;
+  width: 3.125vw;
+  height: 0.32102454642475986vh;
   margin: auto;
-  margin-bottom: 2.875rem;
+  margin-bottom: 7.04375667022412vh;
   background-color: #f38181;
 }
 
 .fifthSection .fifthSectionImages .tablet {
   position: relative;
   left: 7.25rem;
+  width: 24.84375vw;
 }
 
 .fifthSection .fifthSectionImages .mobilePhone {
   position: relative;
   right: 0.3rem;
   bottom: -5.5rem;
+  width: 14.270833333333334vw;
 }
 
 .sixthSection {
-  padding-top: 5.625rem;
+  padding-top: 9.60512vh;
   text-align: center;
 }
 
 .sixthSection .wrapper {
-  width: 75rem;
+  width: 62.5vw;
   margin: auto;
+}
+
+.sixthSection .wrapper h1, .sixthSection .wrapper h3 {
+  color: #333333;
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 
 .sixthSection .wrapper h3 {
   font-family: "Kaushan Script", cursive;
-  font-size: 1.5rem;
+  font-size: 2.5613660618996796vh;
   font-weight: 400;
-  padding-bottom: 0.938rem;
+  padding-bottom: 1.6017075773745997vh;
+  display: block;
+  margin: auto;
 }
 
 .sixthSection .wrapper h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 3.2017075773746vh;
   text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.268943436499466vh;
 }
 
 .sixthSection .wrapper .line {
   background-color: #fff;
-  width: 3.75rem;
-  height: 0.188rem;
+  width: 3.125vw;
+  height: 0.32102454642475986vh;
   margin: auto;
-  margin-bottom: 2.875rem;
+  margin-bottom: 7.04375667022412vh;
   background-color: #f38181;
 }
 
 .sixthSection .wrapper p {
   text-align: center;
-  width: 60rem;
-  height: 8.125rem;
-  font-size: 0.938rem;
-  line-height: 1.5rem;
+  width: 49.166666666666664vw;
+  height: 14.941302027748133vh;
+  font-size: 1.6008537886873vh;
+  line-height: 2.5613660618996796vh;
   color: #999999;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -709,7 +701,6 @@ h2 {
 
 .sixthSection .wrapper .sixthSectionContainer .personimage {
   display: inline-block;
-  width: 47.5%;
   margin-right: 2.5%;
 }
 
@@ -721,7 +712,7 @@ h2 {
 }
 
 .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph {
-  height: 9rem;
+  height: 15.36819637139808vh;
   border-right: 0.063rem solid #e5e5e5;
   border-left: 0.063rem solid #e5e5e5;
   border-bottom: 0.063rem solid #e5e5e5;
@@ -744,7 +735,7 @@ h2 {
 
 .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph p {
   text-align: left;
-  width: 32.5rem;
+  width: 27.083333333333332vw;
   height: 100%;
   font-size: 0.938rem;
   line-height: 1.5rem;
@@ -793,10 +784,11 @@ body > div.sixthSection > div > div.sixthSectionContainer > div > div:nth-child(
 
 section.seventhSection {
   background-color: #f8f8f8;
+  width: 100vw;
 }
 
 section.seventhSection .wrapper {
-  width: 75rem;
+  width: 62.5vw;
   margin: auto;
   font-size: 0;
 }
@@ -804,7 +796,6 @@ section.seventhSection .wrapper {
 section.seventhSection .wrapper img.arrow {
   display: inline-block;
   cursor: pointer;
-  margin: 0 0.938rem;
   position: relative;
   bottom: 8rem;
 }
@@ -831,21 +822,22 @@ section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddl
 }
 
 section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph p {
-  width: 48.125rem;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
+  font-size: 2.5613660618996796vh;
+  line-height: 3.84204909284952vh;
   color: #999999;
   font-weight: 300;
   font-style: italic;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4.268943436499466vh;
 }
 
 section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph .line {
   position: absolute;
   left: 0;
-  bottom: 0.5rem;
+  bottom: 7.853789vh;
   background-color: #f38181;
+  width: 3.125vw;
+  height: 0.32102454642475986vh;
 }
 
 section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph h4 {
@@ -856,5 +848,487 @@ section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddl
   position: absolute;
   bottom: 4.188rem;
   left: 4.375rem;
+}
+
+@media screen and (max-width: 1240px) {
+  .firstSection {
+    color: #fff;
+    background: url(../images/bg1.jpg);
+    background-size: 100% 100%;
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+  }
+  .firstSection .wrapper {
+    margin: auto;
+    width: 62.5vw;
+  }
+  .firstSection .wrapper nav {
+    height: 24.119530416221984vh;
+    padding-top: 2.5613660618996796vh;
+    position: relative;
+  }
+  .firstSection .wrapper nav span {
+    display: block;
+    left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3.2017075773746vh;
+    left: 0;
+  }
+  .firstSection .wrapper nav span:hover {
+    cursor: pointer;
+  }
+  .firstSection .wrapper nav ul {
+    display: block;
+  }
+  .firstSection .wrapper nav ul li {
+    padding: 0.8537886872998933vh 0;
+    font-size: 1.4941302027748133vh;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+  }
+  .firstSection .wrapper nav ul li:first-child {
+    margin-right: 2.9166666666666665vw;
+  }
+  .firstSection .wrapper nav ul li:nth-child(2), .firstSection .wrapper nav ul li:nth-child(4) {
+    margin-right: 3.0208333333333335vw;
+  }
+  .firstSection .wrapper nav ul li:nth-child(3) {
+    margin-right: 3.125vw;
+  }
+  .firstSection .wrapper nav ul li:nth-child(5) {
+    margin-right: 2.7083333333333335vw;
+  }
+  .firstSection .wrapper nav ul li:nth-child(7) {
+    margin-left: 2.1358333333333333vw;
+  }
+  .firstSection .wrapper nav ul li:nth-child(6), .firstSection .wrapper nav ul li:nth-child(7) {
+    position: relative;
+  }
+  .firstSection .wrapper nav ul li:nth-child(6) {
+    top: 0.21344717182497333vh;
+  }
+  .firstSection .wrapper nav ul li:nth-child(7) {
+    top: 0.5344717182497332vh;
+  }
+  .firstSection .wrapper nav ul li:hover {
+    color: #fce38a;
+    border-bottom: 0.188rem solid #fce38a;
+  }
+  .firstSection .wrapper .centered {
+    padding-bottom: 18.46403415154749vh;
+    text-align: center;
+  }
+  .firstSection .wrapper .centered h1 {
+    text-align: center;
+    font-size: 7.68409818569904vh;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    color: #fff;
+  }
+  .firstSection .wrapper .centered h2 {
+    font-size: 8.008538vh;
+    line-height: 10vh;
+    padding-bottom: 3.791675560298826vh;
+  }
+  .firstSection .wrapper .centered .line {
+    background-color: #fff;
+    width: 3.75rem;
+    height: 0.188rem;
+    margin: auto;
+    margin-bottom: 4.063rem;
+  }
+  .firstSection .wrapper .centered a {
+    text-decoration: none;
+    font-size: 1.4941302027748133vh;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border: 0.188rem solid #fff;
+    padding: 1.2806830309498398vh 1.5108333333333333vw;
+  }
+  .firstSection .wrapper .centered a:hover {
+    color: #f38181;
+    border-color: #f38181;
+  }
+  .firstSection .wrapper .selections {
+    position: relative;
+    padding-bottom: 2.134471718249733vh;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .firstSection .wrapper .selections .sliders {
+    display: inline-block;
+    margin-right: 1.5625vw;
+    cursor: pointer;
+  }
+  .firstSection .wrapper .selections .sliders:last-child {
+    position: absolute;
+    margin-right: 0;
+  }
+  .firstSection .wrapper .selections .sliders:hover .hoverSliderFirstSection {
+    display: block;
+  }
+  .firstSection .wrapper .selections .sliders:hover .sliderFirstSection {
+    background-color: #fff;
+  }
+  .firstSection .wrapper .selections .sliders:hover .firstSectionNumberAndText {
+    color: #fff;
+  }
+  .firstSection .wrapper .selections .sliderFirstSection {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 14.583333333333334vw;
+    height: 0.32102454642475986vh;
+  }
+  .firstSection .wrapper .selections .sliderFirstSection .hoverSliderFirstSection {
+    display: none;
+    width: 3.6458333333333335vw;
+    height: 0.32102454642475986vh;
+    background-color: #f38181;
+  }
+  .firstSection .wrapper .selections .firstSectionNumberAndText {
+    margin-top: 2.3479188900747063vh;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionNumber {
+    font-size: 2.5613660618996796vh;
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+  .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionText {
+    display: inline-block;
+    font-size: 1.92102454642476vh;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  section.seventhSection {
+    background-color: #f8f8f8;
+    width: 100vw;
+  }
+  section.seventhSection .wrapper {
+    width: 62.5vw;
+    margin: auto;
+    font-size: 0;
+  }
+  section.seventhSection .wrapper img.arrow {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    bottom: 8rem;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox {
+    display: inline-block;
+    width: 92%;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle {
+    display: table;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle img {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4.375rem 3.75rem;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph p {
+    font-size: 2.5613660618996796vh;
+    line-height: 3.84204909284952vh;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 4.268943436499466vh;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f38181;
+    width: 3.125vw;
+    height: 0.32102454642475986vh;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph h4 {
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script", cursive;
+    position: absolute;
+    bottom: 0;
+    left: 4.375rem;
+  }
+}
+
+@media screen and (max-width: 1216px) {
+  .sixthSection {
+    padding-top: 9.60512vh;
+  }
+  .sixthSection .wrapper .sixthSectionContainer {
+    text-align: center;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .personimage {
+    margin-right: 0;
+    width: 70%;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide {
+    top: 30px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    text-align: left;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph {
+    height: 15.36819637139808vh;
+    border-right: 0.063rem solid #e5e5e5;
+    border-left: 0.063rem solid #e5e5e5;
+    border-bottom: 0.063rem solid #e5e5e5;
+    padding: 1.313rem 0;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph ::-webkit-scrollbar {
+    width: 0.313rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 0.125rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph ::-webkit-scrollbar-thumb {
+    background: #95e1d3;
+    border-radius: 0.125rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideParagraph p {
+    text-align: left;
+    width: 27.083333333333332vw;
+    height: 100%;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    color: #999999;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-right: 1.25rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .arrow:hover {
+    cursor: pointer;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff {
+    padding: 0.875rem;
+    border: 0.063rem solid #e5e5e5;
+    position: relative;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff img {
+    display: inline-block;
+    margin-right: 0.938rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff h1 {
+    display: inline-block;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 1.438rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff img:last-child {
+    position: absolute;
+    right: 0;
+    top: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .firstSection .wrapper .centered h2 {
+    font-size: 6.008538vh;
+    line-height: 10vh;
+    padding-bottom: 3.791675560298826vh;
+  }
+  .firstSection .wrapper nav ul {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox {
+    position: relative;
+    display: inline-block;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .arrow {
+    display: none !important;
+  }
+  .firstSection .wrapper .centered h2 {
+    font-size: 4.008538vh;
+    line-height: 4vh;
+    padding-bottom: 3.791675560298826vh;
+  }
+  .firstSection .wrapper .centered h1 {
+    font-size: 3.684098vh;
+  }
+  .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph .fourthSectionTitle {
+    padding-left: 75px;
+  }
+  .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox {
+    display: block;
+  }
+  .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox img {
+    margin: 0;
+  }
+  .fourthSection .wrapper .hrLine {
+    display: none;
+  }
+  .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h1 {
+    font-size: 1.684098vh;
+  }
+  .thirdSection .wrapper {
+    width: 100vw;
+  }
+  .thirdSection .wrapper .thirdSectionBox .thirdSectionNumberAndText h2 {
+    font-size: 0.49413vh;
+  }
+  .sixthSection .wrapper .sixthSectionContainer {
+    margin-top: 125px;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff h1 {
+    font-size: 10px;
+    left: 39px;
+    top: 1.438rem;
+  }
+  .sixthSection .wrapper .sixthSectionContainer .sixthSectionRightSide .sixthSectionRightSideStuff img {
+    display: inline-block;
+    margin-right: 0.938rem;
+    width: 10%;
+  }
+  .fifthSection .fifthSectionImages .tablet {
+    position: relative;
+    left: 1.25rem;
+    bottom: -3px;
+    width: 24.84375vw;
+  }
+  .fifthSection .fifthSectionImages .mobilePhone {
+    position: relative;
+    right: 0.3rem;
+    bottom: -17px;
+    width: 14.270833333333334vw;
+  }
+  .secondSection .wrapper p {
+    padding-bottom: 152px;
+  }
+  body > div.secondSection > div > div.secondSectionImages > div.imageWithHover > div.overlaySecondSection > span > h1 {
+    display: none;
+  }
+  body > div.secondSection > div > div.secondSectionImages > div.imageWithHover2 > div.overlaySecondSection > span > h1 {
+    display: none;
+  }
+  body > div.secondSection > div > div.secondSectionImages > div.imageWithHover3 > div.overlaySecondSection > span > h1 {
+    display: none;
+  }
+  .tenthSection p {
+    padding-bottom: 152px;
+  }
+  section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMiddle .eleventhSectionParagraph p {
+    font-size: 1.561366vh;
+    line-height: 1.84204909284952vh;
+  }
+  .twelfthSection .wrapper .clientBox {
+    display: block !important;
+    margin: auto !important;
+  }
+  section.seventhSection .wrapper {
+    width: 100vw !important;
+    text-align: center;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle {
+    display: block;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle img {
+    margin: 0 auto !important;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph p {
+    font-size: 12px;
+    width: 76%;
+    margin: auto;
+    padding-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  body > section.eleventhSection > div > div > div > div > h4 {
+    bottom: 0 !important;
+  }
+  section.eleventhSection .wrapper .eleventhSectionMiddleBox div.eleventhSectionMiddle .eleventhSectionParagraph .line {
+    bottom: 0 !important;
+  }
+  section.eleventhSection .wrapper {
+    width: 100vw !important;
+  }
+  section.eleventhSection .wrapper .eleventhSectionMiddleBox {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fourthSection .wrapper h1 {
+    font-size: 2.201708vh !important;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle img {
+    margin-bottom: 234px;
+  }
+  .section13 .wrapper .section13LatestBlogs .section13Box {
+    width: 100% !important;
+    margin-bottom: 5vh !important;
+  }
+  .section13 .wrapper .section13LatestBlogs .section13Box .section13BoxImage img {
+    width: 13.75rem !important;
+  }
+  .section13 .wrapper .section13LatestBlogs .section13Box:nth-child(2) {
+    margin: 0 0 !important;
+  }
+  .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox {
+    margin-right: 0 !important;
+  }
+  .section13 .wrapper .section13LatestBlogs .section13Box p.section13p {
+    width: 13.75rem !important;
+  }
+  .firstSection .wrapper .selections .firstSectionNumberAndText span.firstSectionText {
+    font-size: 1.221025vh;
+  }
+  .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox img.blueScreen {
+    z-index: 0;
+    height: 18.75rem;
+    width: 18.75rem;
+  }
+  .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox div.eighthSectionImage {
+    width: 18.75rem !important;
+    height: 18.75rem !important;
+  }
+  .eighthSection .wrapper .eighthSectionContainer .eighthSectionBox .overlaySecondSection {
+    width: 18.75rem !important;
+    height: 18.75rem !important;
+  }
+  .eighthSection .wrapper p {
+    margin-bottom: 10.227272727272727vh !important;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph h4 {
+    bottom: 4vh;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph {
+    padding-bottom: 4vh;
+  }
+  section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph .line {
+    left: 40px;
+    bottom: 4vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
