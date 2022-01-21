@@ -15,6 +15,7 @@ $colorWhiteRgba: rgba(255,255,255,0.6);
 $colorf8f8f8: #f8f8f8;
 $colorNavButtonHover: #fce38a;
 $firstSectionSliderHover: #f38181;
+$color95e1d3: #95e1d3;
 
 .eighthSection {
     padding-top: $paddingBetweenSections;
@@ -569,4 +570,200 @@ body > section.twelfthSection > div > div:nth-child(6) {
 
 .section14:hover {
     cursor: pointer;
+}
+
+.section15 {
+    margin-top: 8.0042689434365vh;
+    text-align: center;
+    h2 {
+        font-size: 1.4941302027748133vh;
+        color: $color333333;
+        font-family: $fontMontserrat;
+        font-weight: bold;
+        padding-bottom: 4.545454545454546vh;
+        position: relative;
+        top: -2.636364vh;
+    }
+    .wrapper {
+        width: $wrapper;
+        margin: auto;
+        font-size: 0;
+        text-align: center;
+        padding-bottom: 7.4706510138740665vh;
+        .section15LeftSide {
+            text-align: left;
+            display: inline-block;
+            width: 34%;
+            h1 {
+                font-size: 4.909284951974386vh;
+                color: #cccccc;
+                font-weight: 700;
+                font-family: $fontMontserrat;
+                margin-bottom: 4.268943436499466vh;
+            }
+            p {
+                font-size: 1.6008537886873vh;
+                line-height: 2.5613660618996796vh;
+                color: $color999999;
+                font-weight: 400;
+                font-family: $fontRoboto;
+                margin-bottom: 5.336179295624333vh;
+            }
+            h4 {
+                font-family: $fontMontserrat;
+                font-size: 1.92102454642476vh;
+                width: 100%;
+                padding-bottom: 2.134471718249733vh;
+                border-bottom: 0.10672358591248667vh solid #e5e5e5;
+                margin-bottom: 1.92102454642476vh;
+            }
+            h4 span {
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .section15LeftSideBottom {
+                .section15LeftSideBottomImages {
+                    margin-bottom: 4.545454545454546vh;
+                    h3 {
+                        display: inline-block;
+                        margin-right: 1.1458333333333333vw;
+                        font-size: 1.7045454545454546vh;
+                        line-height: 2.727272727272727vh;
+                        color: $color999999;
+                        font-weight: 300;
+                        font-style: italic;
+                        font-family: $fontRoboto;
+                        position: relative;
+                        top: 0;
+                    }
+                    .section15LeftSideBottomImage {
+                        display: inline-block;
+                        margin-right: 0.9375vw;
+                    }
+                }
+            }
+            form {
+                input[type="email"] {
+                    width: 11.979166666666666vw;
+                    height: 2.5rem;
+                    border: 0.063rem solid #e7e7e7;
+                    box-sizing: border-box;
+                    padding: 0 0.5208333333333334vw;
+                    color: #cccccc;
+                    font-style: italic;
+                    font-family: $fontRoboto;
+                }
+                input[type="submit"] {
+                    width: 9.375rem;
+                    height: 2.5rem;
+                    background-color: $color95e1d3;
+                    border: none;
+                    font-size: 1.5909090909090908vh;
+                    font-family: $fontMontserrat;
+                    font-weight: 700;
+                    color: $colorWhite;
+                    cursor: pointer;
+                }
+            }
+        }
+        .section15Middle {
+            text-align: left;
+            display: inline-block;
+            width: 40%;
+            margin-left: 3.5%;
+            .section15MiddleBox:nth-child(2) {
+                position: relative;
+                top: -15px;
+            }
+            .section15MiddleBox:nth-child(3) {
+                margin: 1.9318181818181819vh 0;
+            }
+            .section15MiddleBox:nth-child(4) {
+                position: relative;
+                top: 15px;
+            }
+            .section15MiddleBox {
+                img {
+                    display: inline-block;
+                    cursor: pointer;
+                }
+                .section15MiddleBoxText {
+                    margin-left: 1.09375vw;
+                    position: relative;
+                    top: -1.9318181818181819vh;
+                    display: inline-block;
+                    h5 {
+                        cursor: pointer;
+                       font-size: 1.2806830309498398vh; 
+                       line-height: 1.92102454642476vh;
+                       color: $color333333;
+                       font-weight: 400;
+                       font-family: $fontMontserrat;
+                       text-transform: uppercase;
+                    }
+                    h6 {
+                        font-size: 1.3874066168623265vh;
+                        line-height: 2.5613660618996796vh;
+                        color: $color999999;
+                        font-weight: 300;
+                        font-family: $fontRoboto;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+        .section15RightSide {
+            text-align: left;
+            display: inline-block;
+            width: 22.5%;
+            img {
+                cursor: pointer;
+            }
+            .section15RightSideImages {
+                width: 16.875rem;
+                height: 16.875rem;
+            }
+            .section15RightSideImagesMid {
+                margin: 0.22727272727272727vh 0;
+            }
+            .section15RightSideImagesTop img:nth-child(2), .section15RightSideImagesMid img:nth-child(2), .section15RightSideImagesTop img:nth-child(2) {
+                margin: 0 0.10416666666666667vw;
+            }
+            .section15RightSideText {
+                font-size: 1.4772727272727273vh;
+                font-style: italic;
+                font-weight: 300;
+                font-family: $fontRoboto;
+                line-height: 2.727272727272727vh;
+                color: $color333333;
+                position: relative;
+                top: 2.272727272727273vh;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    .wrapper {
+        max-width: 1200px;
+        width: 100vw;
+        margin: auto;
+        h1 {
+            border-top: solid #e5e5e5 0.063rem;
+            padding: 2.840909090909091vh 0;
+            font-size: 1.5909090909090908vh;
+            color: $color333333;
+            font-weight: 400;
+            font-family: $fontMontserrat;
+            span {
+                color: $firstSectionSliderHover;
+                cursor: pointer;
+            }
+            span:hover {
+                color: $colorNavButtonHover;
+            }
+        }
+    }
 }

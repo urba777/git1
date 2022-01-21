@@ -15,7 +15,7 @@ $colorf8f8f8: #f8f8f8;
 $colorNavButtonHover: #fce38a;
 $firstSectionSliderHover: #f38181;
 
-html {
+:root {
     font-size: 16px;
 }
 
@@ -1203,6 +1203,21 @@ section.seventhSection {
         margin: auto;
         padding-bottom: 49px;
     }
+    .section15 .wrapper .section15LeftSide .section15LeftSideBottom .section15LeftSideBottomImages h3 {
+        display: block !important;
+    }
+    .section15 .wrapper .section15RightSide {
+        display: block !important;
+        position: relative;
+        top: 8.522727272727273vh;
+        left: -9.458333vw;
+    }
+    .section15 .wrapper .section15LeftSide {
+        width: 50% !important;
+    }
+    .fourthSection .wrapper .fourthSectionBoxes .fourthSectionBox .fourthSectionTitleAndParagraph p {
+        width: 61vw;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -1271,5 +1286,35 @@ section.seventhSection {
     section.seventhSection .wrapper .seventhSectionMiddleBox div.seventhSectionMiddle .seventhSectionParagraph .line {
         left: 40px;
         bottom: 4vh;
+    }
+    .section15 .wrapper .section15LeftSide form input[type="email"] {
+        width: 6.375rem !important;
+    }
+    .section15 .wrapper .section15LeftSide form input[type="submit"] {
+        width: 6.375rem !important;
+    }
+    .section15 .wrapper .section15Middle {
+        display: block !important;
+        width: 40%;
+        margin-left: 0 !important;
+        margin: auto !important;
+        top: 5.681818181818182vh !important;
+        position: relative !important;
+    }
+    .section15 h2 {
+        top: 3.363636vh !important;
+    }
+    .section15 .wrapper .section15RightSide .section15RightSideText {
+        margin-bottom: 31px !important;
+        white-space: nowrap !important;
+    }
+    body > section.section15 > div > div.section15Middle > h2 {
+        top: 11px !important;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .section15 .wrapper .section15Middle .section15MiddleBox .section15MiddleBoxText {
+        top: 2.068182vh !important;
     }
 }
